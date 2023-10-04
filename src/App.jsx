@@ -6,7 +6,7 @@ function App() {
   const [Info, setInfo] = useState('');
 
   const clickHandler = () => {
-    fetch('http://test1', {
+    fetch('http://testphp1.kesug.com', {
       method: "POST",
       header: {
         'Content-Type': 'application/x-www-form-urlencoded',
